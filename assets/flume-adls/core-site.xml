@@ -1,0 +1,33 @@
+<configuration>
+ 
+  <property>
+    <name>dfs.adls.oauth2.access.token.provider.type</name>
+    <value>ClientCredential</value>
+  </property>
+  
+  <property>
+    <name>dfs.adls.oauth2.refresh.url</name>
+    <value></value>
+  </property>
+  
+  <property>
+    <name>dfs.adls.oauth2.client.id</name>
+    <value></value>
+  </property>
+  
+  <property>
+    <name>dfs.adls.oauth2.credential</name>
+    <value></value>
+  </property>
+  
+    <property>
+      <name>fs.adl.impl</name>
+      <value>org.apache.hadoop.fs.adl.AdlFileSystem</value>
+  </property>
+  <property>
+      <name>fs.AbstractFileSystem.adl.impl</name>
+      <value>org.apache.hadoop.fs.adl.Adl</value>
+  </property>  
+ 
+ 
+</configuration>
