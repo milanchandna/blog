@@ -21,17 +21,17 @@
   
   <property>
     <name>dfs.adls.oauth2.refresh.url</name>
-    <value></value>
+    <value>FILL-IN-HERE</value>
   </property>
   
   <property>
     <name>dfs.adls.oauth2.client.id</name>
-    <value></value>
+    <value>FILL-IN-HERE</value>
   </property>
   
   <property>
     <name>dfs.adls.oauth2.credential</name>
-    <value></value>
+    <value>FILL-IN-HERE</value>
   </property>
   
   <property>
